@@ -1,4 +1,4 @@
-    1  cd /media
+    1  
     2  cd lpi1/
     3  ls
     4  cd VBox_GAs_5.2.10/
