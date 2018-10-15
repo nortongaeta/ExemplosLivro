@@ -1,65 +1,6 @@
-    1  
-    2  cd lpi1/
-    3  ls
-    4  cd VBox_GAs_5.2.10/
-    5  ls
-    6  ls -la
-    7  cp VBoxLinuxAdditions.run /tmp
-    8  cd /tmp
-    9  ls
-   10  ./VBoxLinuxAdditions.run 
-   11  shutdown -r now
-   12  cd sf_Downloads/
-   13  ls
-   14  cp arquivos-aula.tgz ~lpi1
-   15  cd pi1
-   16  cd /
-   17  cd usr/
-   18  cd ..
-   19  cd home/
-   20  ls
-   21  cd lpi1/
-   22  ls
-   23  chown lpi1:lpi1 arquivos-aula.tgz 
-   24  exit
-   25  apt-get install sysinfo
-   26  sysinfo
-   27  ls
-   28  cd /
-   29  cd etc
-   30  exit
-   31  cd /etc
-   32  ls
-   33  top
-   34  ls
-   35  cd init
-   36  ls
-   37  cd ..
-   38  cd init.d
-   39  ls
-   40  ls -la
-   41  cd cron
-   42  cat cron | more
-   43  ls
-   44  cd rc.0
-   45  cd rc0.d
-   46  ls
-   47  chkconfig
-   48  exit
-   49  apt-get install chrome
-   50  apt-get update
-   51  apt-get upgrade
-   52  cd /etc
-   53  ls
-   54  cd apt
-   55  ls
-   56  cd sources.list.d
-   57  ls
-   58  vim google-chrome.list
-   59  ls
-   60  exit
-   61  apt-get install gparted
-   62  gparted
+
+Inicialização do repositório local e subida da primeira versão:
+   
    63  shutdown -r now
    64  apt install git
    65  echo "# ExemplosLivro" >> README.md
@@ -104,3 +45,19 @@
   104  git push origin master
   105  history
   106  history >> history.txt
+
+alterações e exclusões de arquivos:
+
+git add <nome do arquivo>
+git commit
+git push origin master
+
+git status
+- mostra as alterações pendentes
+
+git pull origin master
+- atualizar a ultima versão do branch
+- com alterações feitas remotamente por outro desenvolvedor
+
+
+
