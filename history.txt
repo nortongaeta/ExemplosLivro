@@ -59,5 +59,17 @@ git pull origin master
 - atualizar a ultima versão do branch
 - com alterações feitas remotamente por outro desenvolvedor
 
+Exclusão de um arquivo do projeto:
+
+  175  commit
+  176  git commit
+  177  git push origin master
+  178  git rm novoarquivo.txt
+  179  git status
+  180  git commit
+  181  git push origin master
+  182  history --help
+  183  history 10
+  184  history 10 >> history.txt
 
 
