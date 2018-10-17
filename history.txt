@@ -72,4 +72,12 @@ Exclusão de um arquivo do projeto:
   183  history 10
   184  history 10 >> history.txt
 
+Obs:
+inicialmente a pasta do projeto foi criada como su.
+Após isso os comandos git estavam requerendo sudo.
+Para corrigir, coloquei o usuário como owner da pasta com o comando:
+
+chown -R <usuário> <pasta do projeto>
+
+
 
